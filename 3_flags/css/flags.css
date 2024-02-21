@@ -1,0 +1,65 @@
+.flag {
+	margin: 30px;
+	width: 600px;
+	height: 400px;
+	border: 1px solid black;
+}
+
+/* Flag of Belgium */
+.black {
+	height: 100%;
+	width: 33.33%;
+	background: black;
+	float: left;
+
+}
+
+.yellow {
+	height: 100%;
+	width: 33.33%;
+	background: yellow;
+	float: left;
+
+}
+
+.red {
+	height: 100%;
+	width: 33.33%;
+	background: red;
+	float: left;
+
+}
+
+/* Flag of Japan */
+.circle {
+	height: 201px;
+	width: 201px;
+	background: red;
+	border-radius: 100%;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+
+/* Flag of Trinidad and Tobago */
+
+.third {
+	background: red;
+	overflow: hidden;
+}
+
+.stripe {
+	width: 800px;
+	height: 90px;
+	background: black;
+	transform: rotate(45deg);
+	position: relative;
+	left: -115px;
+	top: 140px;
+	border: white solid 25px;
+}
+
+
